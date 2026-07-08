@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-token-manager"
+version = "0.1.0"
+description = "Turns a Django project into one clean Markdown context file for AI coding agents"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "you"}
+]
+
+[project.scripts]
+atm = "agent_token_manager.cli:main"
+
+[tool.setuptools]
+packages = ["agent_token_manager", "agent_token_manager.extractors"]
