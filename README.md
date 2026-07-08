@@ -89,6 +89,10 @@ language logic on purpose, in its own file (`django_routes.py`), so
 support for other frameworks can be added the same way later without
 touching the Python extractor.
 
+**Note:** The main purpose of this repo is for Django education, use it to learn!
+
 ## License
 
 MIT
+___
+*_Peace ☮️ Astrophel_*
